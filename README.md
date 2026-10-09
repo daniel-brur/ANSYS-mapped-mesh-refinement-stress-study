@@ -1,4 +1,4 @@
-# ANSYS APDL Mapped-Mesh Stress Study
+# ANSYS APDL Optimization Mapped-Mesh Stress Study
 
 An ANSYS Mechanical APDL script that builds a 2D structural model, defines a linear-elastic material, creates mapped finite-element meshes, applies boundary conditions and pressure loads, solves the model, and evaluates maximum X-direction normal stress while refining the mesh.
 
@@ -8,13 +8,13 @@ The script demonstrates a parametric APDL workflow:
 
 1. Defines `PLANE182` as the element type.
 2. Defines isotropic linear-elastic material properties.
-3. Creates 16 keypoints and connects them with lines.
+3. Creates a structure using 16 keypoints and element lines.
 4. Builds four areas from line selections.
 5. Refines line sizing in a loop.
 6. Generates mapped meshes for selected areas.
 7. Applies symmetry/displacement constraints.
 8. Applies pressure loads to selected lines.
-9. Solves the structural model.
+9. Starts iterative process by solving the structural model.
 10. Plots and retrieves maximum X-direction stress.
 11. Compares the current maximum stress with the previous iteration.
 
