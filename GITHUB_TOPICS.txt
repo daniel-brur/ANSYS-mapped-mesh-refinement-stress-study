@@ -1,0 +1,15 @@
+ansys
+apdl
+ansys-mechanical
+finite-element-analysis
+fea
+finite-element-method
+structural-analysis
+stress-analysis
+mesh-refinement
+mesh-convergence
+computational-mechanics
+engineering
+simulation
+mechanical-engineering
+scientific-computing

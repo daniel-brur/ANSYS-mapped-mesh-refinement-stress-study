@@ -1,0 +1,1 @@
+ANSYS Mechanical APDL script for 2D structural analysis, mapped finite-element meshing, pressure loading, stress postprocessing, and mesh-refinement convergence checks.
