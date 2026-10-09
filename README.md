@@ -1,4 +1,4 @@
-# ANSYS APDL Optimization Mapped-Mesh Stress Study
+# ANSYS-mapped-mesh-refinement-stress-study
 
 An ANSYS Mechanical APDL script that builds a 2D structural model, defines a linear-elastic material, creates mapped finite-element meshes, applies boundary conditions and pressure loads, solves the model, and evaluates maximum X-direction normal stress while refining the mesh.
 
